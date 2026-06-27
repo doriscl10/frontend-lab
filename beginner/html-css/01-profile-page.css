@@ -16,7 +16,7 @@ header {
   width: 80%;
   margin: auto;
 }
-p {
+.hero-info {
   width: 70%;
   margin: 0 auto;
   text-align: center;
@@ -25,7 +25,7 @@ p {
   color: #333;
   line-height: 1.5;
 }
-img {
+.profile-img {
   border: 5px solid #fff;
   border-radius: 50%;
   margin-top: 90 px;
@@ -54,9 +54,20 @@ li {
   list-style: none;
   font-weight: bold;
 }
-span {
+.hobbie-item {
   color: #333;
 }
 hr {
   margin: 10px 0;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+
+  background-color: #f0deff;
+}
+
+.copyright {
+  color: #706f6f;
+  font-size: 0.8em;
 }
